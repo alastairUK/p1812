@@ -43,8 +43,10 @@ hrs = h(end) + hrg;
 
 g = h + R;
 
-htc = max(hts, g(1));
-hrc = max(hrs, g(end));
+%htc = max(hts, g(1));
+%hrc = max(hrs, g(end));
+htc = hts;
+hrc = hrs;
 
 % Section 5.6.1 Deriving the smooth-Earth surface
 
