@@ -294,7 +294,7 @@ for iname = 1 : length(filenames)
                                         flag_debug, ...
                                         sg3db.fid_log);      
                                    
-                                    %fprintf(1,',,%.4f,%.4f\n',sg3db.PredictedFieldStrength,sg3db.Lb)
+                                    %fprintf(1,',,%.8f,%.8f\n',sg3db.PredictedFieldStrength,sg3db.Lb)
          catch message
              disp('Input parameters out of bounds');
              
